@@ -1,6 +1,6 @@
 # Versión publicada
 
-**v6**
+**v7**
 
 La pantalla de inicio del simulador muestra este número abajo del todo, bajo el
 aviso legal. Si en tu dispositivo ves un número distinto —o no ves ninguno— lo
@@ -9,10 +9,15 @@ GitHub Pages, no la última.
 
 ## Modo docente
 
-Se abre manteniendo pulsado durante un segundo el **logo** en la pantalla de
-inicio, o el rótulo **Dräger Evita 4** dentro del ventilador. Pide un PIN, que
-por defecto es **2468** y se cambia desde el propio panel. El alumno no ve ni el
-acceso ni el panel.
+Dos formas de entrar, ambas piden el código:
+
+- Botón **🎓** en la cabecera del ventilador.
+- Tarjeta **Modo docente** en la pantalla de inicio.
+
+El código de la primera vez es **2468**. Se cambia dentro, en la pestaña
+**Examen**: admite letras y números, de 4 a 16 caracteres. Si se filtra, basta
+con cambiarlo y quien lo conocía deja de poder entrar. Se guarda por
+dispositivo, así que cada docente tiene el suyo.
 
 Dentro hay cuatro pestañas: mover la fisiología del paciente en vivo, provocar
 eventos clínicos, activar el modo examen y generar un enlace de escenario para
@@ -22,6 +27,7 @@ repartir a la clase.
 
 | Versión | Cambios |
 |---|---|
+| v7 | Acceso docente por botón visible y código cambiable de 4 a 16 caracteres |
 | v6 | Modo docente: fisiología en vivo, eventos, modo examen, escenarios compartibles e informe del alumno |
 | v5 | Códigos compartidos con la app maestra MS360 (colección `codigos_maestra`) |
 | v4 | Puerta de activación estricta, marca de versión visible, corrección de recarga al instalar |
